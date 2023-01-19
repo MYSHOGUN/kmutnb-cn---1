@@ -10,7 +10,8 @@ fn main() {
             }
         }
     }
-    println!("after : {:?}",word);
+    println!("unique : {:?}",word);
+    println!("count : {}",word.len());
 }
 #[cfg(test)]
 mod tests {
